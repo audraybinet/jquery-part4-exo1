@@ -1,0 +1,20 @@
+h1{
+  text-align: center;
+  color: black;
+  font-family: fantasy;
+}
+body{
+  background-color: violet;
+}
+img{
+  height: 100px;
+  width: 100px;
+}
+.container{
+  text-align: center;
+  margin-top: 100px;
+}
+#result{
+  text-align:center;
+  margin: 50px;
+}

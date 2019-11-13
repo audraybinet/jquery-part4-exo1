@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <title>Exercice 1</title>
+  </head>
+  <body>
+  <h1>Shifumi!</h1>
+  <div class="player">
+  <div class="row justify-content-around">
+  <div class="card" style="width: 18rem;">
+  <img src="assets/img/index.png" class="card-img-top" alt="lamanu">
+  <div class="card-body">
+    <h5 class="card-title" style="text-align: center">LA MANU</h5>
+</div>
+</div>
+<div class="card" style="width: 18rem;">
+<img src="assets/img/images.jpeg" class="card-img-top" alt="Stephen">
+<div class="card-body">
+  <h5 class="card-title" style="text-align: center">STEPHEN</h5>
+</div>
+</div>
+</div>
+</div>
+  <div class="container">
+        <span class="left">la Manu: 0</span>
+        <span class="right">Stephen: 0</span>
+        <select id="player">
+            <option value="Pierre">Pierre</option>
+            <option value="Feuille">Feuille</option>
+            <option value="Ciseaux">Ciseaux</option>
+        </select>
+        <button type="button" class="btn btn-dark" id="compare">JOUER!!!</button>
+    </div>
+    <div id="result"><p></p></div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+  </body>
+</html>
